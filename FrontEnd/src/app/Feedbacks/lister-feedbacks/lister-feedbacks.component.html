@@ -1,0 +1,35 @@
+<div class="container">
+  <h1>Liste des Feedbacks</h1>
+  <div class="table-container">
+      <table class="table">
+          <thead>
+              <tr>
+                <th>Nom</th>
+                <th>Prénom</th> 
+                <th>Email</th>
+                  <th>Avis</th>
+                  <th>Date</th>
+                  <th>Actions</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let feedback of feedbacks">
+             
+                  <td>{{ feedback.candidatDetails?.nom }}</td>
+                  <td>{{ feedback.candidatDetails?.prenom }}</td>
+                  <td>{{ feedback.candidatDetails?.adresseEmail }}</td>
+                  <td>{{ feedback.avis }}</td>
+                  <td>{{ feedback.dateFeedback |date }}</td>
+                  <td class="actions">
+                    <button class="modifier" (click)="modifierFeedback(feedback)">                          
+                        <i class="fas fa-edit"></i> <!-- Icône de modifier -->
+                    </button>
+                    <button class="supprimer" (click)="supprimerFeedback(feedback.id)">
+                      <i class="fas fa-trash-alt"></i> <!-- Icône de supprimer -->
+                    </button>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+</div>

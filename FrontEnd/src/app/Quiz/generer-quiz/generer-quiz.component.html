@@ -1,0 +1,43 @@
+<div class="container">
+    <h1>Ajouter un Quiz</h1>
+    <form [formGroup]="quizForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="titre">Titre</label>
+        <input id="titre" formControlName="titre" type="text" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="niveauId">Niveau</label>
+        <select id="niveauId" formControlName="niveauId" class="form-control"> 
+          <option *ngFor="let niveau of niveaux" [value]="niveau.value">{{ niveau.label }}</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="nombreQCM">Nombre de QCM</label>
+        <input id="nombreQCM" formControlName="nombreQCM" type="number" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="questionnaireNiveau">Niveau du Questionnaire</label>
+        <select id="questionnaireNiveau" formControlName="questionnaireNiveau" class="form-control"> 
+          <option *ngFor="let niveau of questionnaireNiveaux" [value]="niveau.value">{{ niveau.label }}</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="nombreQuestionnaires">Nombre de Questionnaires</label>
+        <input id="nombreQuestionnaires" formControlName="nombreQuestionnaires" type="number" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="dureeMinutes">Durée (minutes)</label>
+        <input id="dureeMinutes" formControlName="dureeMinutes" type="number" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea id="description" formControlName="description" class="form-control"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="questionnaireType">Type de Questionnaire</label>
+        <input id="questionnaireType" formControlName="questionnaireType" type="text" class="form-control">
+      </div>
+      <button type="submit" class="btn btn-primary">Ajouter</button>
+    </form>
+  </div>
+  

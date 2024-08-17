@@ -1,0 +1,16 @@
+<div class="container">
+  <h2>Merci pour votre engagement !</h2>
+  
+  <p>Nous apprécions votre participation. Votre contribution est très importante pour nous.</p>
+  <div class="rating">
+    <span class="star" (click)="rate(1)" [class.gold]="rating && rating >= 1">★</span>
+<span class="star" (click)="rate(2)" [class.gold]="rating && rating >= 2">★</span>
+<span class="star" (click)="rate(3)" [class.gold]="rating && rating >= 3">★</span>
+<span class="star" (click)="rate(4)" [class.gold]="rating && rating >= 4">★</span>
+<span class="star" (click)="rate(5)" [class.gold]="rating && rating >= 5">★</span>
+
+  </div>
+  <textarea class="comment-textarea" placeholder="Ajoutez un commentaire..." [(ngModel)]="comment"></textarea>
+  <button (click)="submitFeedback()">Soumettre</button>
+ <!-- <img src="https://img.freepik.com/vecteurs-libre/gars-intelligent-obtient-prix-gagnant-debout-piedestal-tenant-coupe-or-illustration-bande-dessinee_74855-14511.jpg" alt="Image de remerciement" width="600" height="350">
+--></div>

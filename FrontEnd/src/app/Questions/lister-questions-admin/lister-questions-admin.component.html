@@ -1,0 +1,41 @@
+<div class="questions-container">
+    <h1>Liste des Questions</h1>
+    <div class="search-container">
+        <input type="text" [(ngModel)]="searchText" placeholder="Rechercher une question" class="search-input">
+        <i class="material-icons search-icon">search</i> <!-- Icône de loupe -->
+    </div>
+    <div class="table-container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Texte</th>
+                    <th>Niveau</th>
+                    <th>Catégorie</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let question of filteredQuestions(); let i = index">
+                    <td>{{ i + 1 }}</td>
+                    <td>{{ question.texte }}</td>
+                    <td>{{ getNiveauLabel(question.niveauId) }}</td>
+                    <td>{{ question.domaine }}</td>
+                    <td class="actions">
+                        <button (click)="modifierQuestion(question)" class="modifier">
+                            <i class="fas fa-edit"></i> <!-- Icône de modifier -->
+                        </button>
+                        <button (click)="deleteQuestion(question.questionId)" class="supprimer">
+                            <i class="fas fa-trash-alt"></i> <!-- Icône de supprimer -->
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Bouton pour ajouter une question -->
+    <div class="add-question-button">
+        <a routerLink="/tableauBord/ajoutQuestion" class="btnAjout">Ajouter une question</a>
+    </div>
+</div>

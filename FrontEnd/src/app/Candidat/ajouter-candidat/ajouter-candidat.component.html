@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>Ajouter Candidat</h1>
+    <form [formGroup]="candidatForm" (submit)="onSubmit()">
+        <div class="form-group">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" class="form-control" formControlName="nom">
+        </div>
+        <div class="form-group">
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" class="form-control" formControlName="prenom">
+        </div>
+        <div class="form-group">
+            <label for="adresseEmail">Adresse Email :</label>
+            <input type="email" id="adresseEmail" class="form-control" formControlName="adresseEmail">
+        </div>
+        <button type="submit" class="btnAjouter">Ajouter</button>
+    </form>
+</div>

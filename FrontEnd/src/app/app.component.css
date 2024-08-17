@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    color: #132579; /* Couleur de texte foncé */
+}
+.company-logo {
+    position: absolute;
+    top: -10px; /* À 10 pixels du haut du conteneur parent */
+    left: 18px; /* À 10 pixels du bord droit du conteneur parent */
+    width: 100px; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Pour conserver les proportions */
+  }

@@ -1,0 +1,12 @@
+/* Importation des styles de CodeMirror */
+@import '~codemirror/lib/codemirror.css';
+@import '~codemirror/theme/monokai.css';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css'; /* Vous pouvez choisir un autre thème si vous le souhaitez */
+@import 'node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+.custom-snackbar {
+    background-color: #f44336; /* Red background for the snackbar */
+    color: #ffffff; /* White text color */
+  }
+  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

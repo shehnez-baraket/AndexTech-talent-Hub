@@ -1,0 +1,44 @@
+<div class="container">
+  <h1>Liste des Candidats</h1>
+  <div class="table-container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nom</th>
+          <th>Prénom</th>
+          <th>Adresse Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let candidat of candidats; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ candidat.nom }}</td>
+          <td>{{ candidat.prenom }}</td>
+          <td>{{ candidat.adresseEmail }}</td>
+          <td class="actions">
+            <button class="modifier" (click)="modifierCandidat(candidat)">
+              <i class="fas fa-edit"></i>
+            </button>
+            <button *ngIf="!candidats[i].masque" class="supprimer" (click)="masquerCandidat(candidats[i])">
+              <i class="fas fa-eye-slash"></i>
+            </button>
+            <button *ngIf="candidat.masque" class="masquer" disabled>
+              <i class="fas fa-eye"></i>
+            </button>
+            <button (click)="Feedback(candidat)" [ngClass]="{'button-enabled': candidat.hasPassedQuiz, 'button-disabled': !candidat.hasPassedQuiz}" [disabled]="!candidat.hasPassedQuiz">
+              <i class="fas fa-comment-alt"></i>
+            </button>
+            <button [disabled]="!candidat.hasPassedQuiz" [ngClass]="{'button-disabled': !candidat.hasPassedQuiz}" (click)="afficherQuizzes(candidat.id)">
+              <i class="material-icons icon-small">visibility</i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="add-candidate-button">
+    <a routerLink="/tableauBord/ajoutCandidat" class="btnAjout">Ajouter un Candidat</a>
+  </div>
+</div>

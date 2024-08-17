@@ -1,0 +1,380 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\Test\\Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_HubBack_Console\\AndexTech_Talent_HubBack_Console.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_HubBack_Console\\AndexTech_Talent_HubBack_Console.csproj",
+        "projectName": "AndexTech_Talent_HubBack_Console",
+        "projectPath": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_HubBack_Console\\AndexTech_Talent_HubBack_Console.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Bibliothéque\\AndexTech_Talent_Hub_Bibliotheque.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Bibliothéque\\AndexTech_Talent_Hub_Bibliotheque.csproj",
+        "projectName": "AndexTech_Talent_Hub_Bibliotheque",
+        "projectPath": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Bibliothéque\\AndexTech_Talent_Hub_Bibliotheque.csproj",
+        "packagesPath": "C:\\Users\\shehn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Bibliothéque\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shehn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "PDFsharp": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj",
+        "projectName": "AndexTech_Talent_Hub_Web",
+        "projectPath": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj",
+        "packagesPath": "C:\\Users\\shehn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shehn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_HubBack_Console\\AndexTech_Talent_HubBack_Console.csproj": {
+                "projectPath": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_HubBack_Console\\AndexTech_Talent_HubBack_Console.csproj"
+              },
+              "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Bibliothéque\\AndexTech_Talent_Hub_Bibliotheque.csproj": {
+                "projectPath": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Bibliothéque\\AndexTech_Talent_Hub_Bibliotheque.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Basic.Reference.Assemblies.Net60": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
+            "CS-Script": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Scripting": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "PDFsharp": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "PDFsharp-MigraDoc-GDI": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "PdfSharpCore": {
+              "target": "Package",
+              "version": "[1.3.63, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "System.Net.Mail.Abstractions": {
+              "target": "Package",
+              "version": "[1.1.21, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\Test\\Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\Test\\Test.csproj",
+        "projectName": "Test",
+        "projectPath": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\Test\\Test.csproj",
+        "packagesPath": "C:\\Users\\shehn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shehn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Bibliothéque\\AndexTech_Talent_Hub_Bibliotheque.csproj": {
+                "projectPath": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Bibliothéque\\AndexTech_Talent_Hub_Bibliotheque.csproj"
+              },
+              "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj": {
+                "projectPath": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.7.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

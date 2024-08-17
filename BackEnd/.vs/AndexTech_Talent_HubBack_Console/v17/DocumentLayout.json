@@ -1,0 +1,335 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_web\\controllers\\lienquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|solutionrelative:andextech_talent_hub_web\\controllers\\lienquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_web\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|solutionrelative:andextech_talent_hub_web\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_web\\repositories\\lienquizrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|solutionrelative:andextech_talent_hub_web\\repositories\\lienquizrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_web\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|solutionrelative:andextech_talent_hub_web\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_web\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|solutionrelative:andextech_talent_hub_web\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|solutionrelative:andextech_talent_hub_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_web\\controllers\\codecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|solutionrelative:andextech_talent_hub_web\\controllers\\codecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_web\\controllers\\avisclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|solutionrelative:andextech_talent_hub_web\\controllers\\avisclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_web\\controllers\\reponsecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|solutionrelative:andextech_talent_hub_web\\controllers\\reponsecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_web\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|solutionrelative:andextech_talent_hub_web\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_web\\controllers\\qcmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|solutionrelative:andextech_talent_hub_web\\controllers\\qcmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_web\\services\\reponseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|solutionrelative:andextech_talent_hub_web\\services\\reponseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3DEE8A-9394-4B2B-BA5B-0D0B1A3C9811}|AndexTech_Talent_Hub_Biblioth\u00E9que\\AndexTech_Talent_Hub_Bibliotheque.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_biblioth\u00E9que\\models\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F3DEE8A-9394-4B2B-BA5B-0D0B1A3C9811}|AndexTech_Talent_Hub_Biblioth\u00E9que\\AndexTech_Talent_Hub_Bibliotheque.csproj|solutionrelative:andextech_talent_hub_biblioth\u00E9que\\models\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|c:\\users\\shehn\\music\\andex pfe\\backend\\andextech_talent_hub_web\\controllers\\candidatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1D8004-A9F5-41D6-8C61-A0F9AC101CDF}|AndexTech_Talent_Hub_Web\\AndexTech_Talent_Hub_Web.csproj|solutionrelative:andextech_talent_hub_web\\controllers\\candidatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 109,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:61:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LienQuizController.cs",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\LienQuizController.cs",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Web\\Controllers\\LienQuizController.cs",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\LienQuizController.cs",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Web\\Controllers\\LienQuizController.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAuwHQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T16:39:27.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Web\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Services\\TokenService.cs",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Web\\Services\\TokenService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T16:38:17.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LienQuizRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Repositories\\LienQuizRepository.cs",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Web\\Repositories\\LienQuizRepository.cs",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Repositories\\LienQuizRepository.cs",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Web\\Repositories\\LienQuizRepository.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwB8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T16:37:51.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext .cs",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\AppDbContext .cs",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Web\\AppDbContext .cs",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\AppDbContext .cs",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Web\\AppDbContext .cs",
+              "ViewState": "AQIAABUAAAAAAAAAAADgvxoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T23:41:22.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CodeController.cs",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\CodeController.cs",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Web\\Controllers\\CodeController.cs",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\CodeController.cs",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Web\\Controllers\\CodeController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAwwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T23:33:01.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Web\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Web\\Controllers\\TokenController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBgAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T14:43:17.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\appsettings.json",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\appsettings.json",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-30T23:41:31.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AvisClientController.cs",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\AvisClientController.cs",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Web\\Controllers\\AvisClientController.cs",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\AvisClientController.cs",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Web\\Controllers\\AvisClientController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAYwC8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T08:03:07.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QCMController.cs",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\QCMController.cs",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Web\\Controllers\\QCMController.cs",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\QCMController.cs",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Web\\Controllers\\QCMController.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAA2wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:17:33.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Web\\Controllers\\QuizController.cs",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Web\\Controllers\\QuizController.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAwwIsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:09:39.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReponseService.cs",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Services\\ReponseService.cs",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Web\\Services\\ReponseService.cs",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Services\\ReponseService.cs",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Web\\Services\\ReponseService.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAmwHEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T06:53:54.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReponseController.cs",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\ReponseController.cs",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Web\\Controllers\\ReponseController.cs",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\ReponseController.cs",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Web\\Controllers\\ReponseController.cs",
+              "ViewState": "AQIAANUBAAAAAAAAAAAAAOABAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T06:53:46.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Option.cs",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Biblioth\u00E9que\\Models\\Option.cs",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Biblioth\u00E9que\\Models\\Option.cs",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Biblioth\u00E9que\\Models\\Option.cs",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Biblioth\u00E9que\\Models\\Option.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T06:59:15.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CandidatsController.cs",
+              "DocumentMoniker": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\CandidatsController.cs",
+              "RelativeDocumentMoniker": "AndexTech_Talent_Hub_Web\\Controllers\\CandidatsController.cs",
+              "ToolTip": "C:\\Users\\shehn\\Music\\Andex PFE\\BackEnd\\AndexTech_Talent_Hub_Web\\Controllers\\CandidatsController.cs",
+              "RelativeToolTip": "AndexTech_Talent_Hub_Web\\Controllers\\CandidatsController.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAAwGUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T21:21:31.893Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 176,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:64:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:64:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:65:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:62:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:68:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:73:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:74:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:78:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:80:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:82:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:86:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:87:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:88:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:90:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:92:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:94:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

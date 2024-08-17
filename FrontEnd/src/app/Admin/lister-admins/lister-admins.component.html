@@ -1,0 +1,39 @@
+
+  <div class="container">
+
+  <h1>Liste des Administrateurs</h1>
+  <div class="table-container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Prénom</th>
+          <th>Adresse Email</th>
+          <th>Role</th> <th>Actions</th> 
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let admin of admins">
+          <td>{{ admin.nom }}</td>
+          <td>{{ admin.prenom }}</td>
+          <td>{{ admin.email }}</td>
+          <td>{{ admin.role }}</td>
+          <td class="actions">
+            <button (click)="openChangePassword(admin.id)" class="changePwd">
+              <i class="fas fa-key"></i> 
+            </button>
+            <button (click)="deleteAdmin(admin.id)" class="supprimer">
+              <i class="fas fa-trash"></i> 
+            </button>
+            
+
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="add-admin-button">
+    <a routerLink="/tableauBord/ajoutAdmin" class="btnAjout">Ajouter un Administrateur</a>
+  </div>
+</div>

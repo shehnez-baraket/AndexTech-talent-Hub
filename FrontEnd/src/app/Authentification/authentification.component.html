@@ -1,0 +1,19 @@
+<div class="container">
+  <h1>Connexion</h1>
+  <form [formGroup]="authForm" (ngSubmit)="submitForm()" [class.loading]="loading">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" formControlName="email" id="email" placeholder="Entrez votre email">
+    </div>
+    <div class="form-group">
+      <label for="password">Mot de passe</label>
+      <input type="password" formControlName="password" id="password" placeholder="Entrez votre mot de passe">
+    </div>
+    <div class="actions">
+      <button type="submit" class="submit-btn" [disabled]="loading">Se connecter</button>
+    </div>
+  </form>
+  <div *ngIf="loading" class="loading-indicator">
+    <img src="assets/Loading.gif" alt="Chargement...">
+  </div>
+</div>

@@ -1,0 +1,59 @@
+.container {
+    width: 400px; /* Taille fixe pour la fenêtre de pop-up */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #132579;
+    font-size: 20px; /* Réduction de la taille du titre */
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    width: 70%; /* Réduction de la largeur du champ de recherche */
+    padding: 8px; /* Réduction de la taille de la police */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #132579;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block; /* Centre le bouton */
+    margin: 0 auto; /* Centre le bouton */
+  }
+  
+  button:hover {
+    background-color: #0c1445;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  .candidates-list {
+    text-align: left; /* Aligner le texte à gauche */
+  }
+  
+  .candidate-checkbox {
+    vertical-align: middle; /* Aligner les cases à cocher verticalement au centre */
+    margin-right: 10px; /* Ajouter un espacement à droite des cases à cocher */
+  }
+  
+  .send-button {
+    display: block; /* Afficher le bouton en tant que bloc */
+    margin: 20px auto; /* Centrer le bouton horizontalement avec une marge de 20px en haut et en bas */
+  }
+  

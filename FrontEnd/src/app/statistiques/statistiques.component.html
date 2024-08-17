@@ -1,0 +1,40 @@
+<div class="statistics-dashboard">
+  <div class="chart-container">
+    <h3 class="chart-title">Distribution des Avis Candidat</h3>
+    <ngx-charts-bar-horizontal
+      [view]="view"
+      [scheme]="colorScheme"
+      [results]="barData"
+      [gradient]="gradient"
+      [legend]="showLegend"
+      [showXAxisLabel]="showXAxisLabel"
+      [showYAxisLabel]="showYAxisLabel"
+      [xAxisLabel]="xAxisLabel"
+      [yAxisLabel]="yAxisLabel">
+    </ngx-charts-bar-horizontal>
+  </div>
+  
+
+  <div class="chart-container">
+    <h3 class="chart-title">Pourcentage de Réponses </h3>
+    <ngx-charts-pie-chart
+      *ngIf="pieData.length > 0"
+      [view]="view"
+      [scheme]="colorScheme"
+      [results]="pieData"
+      [legend]="showLegend"
+      [explodeSlices]="true"
+      [doughnut]="true"
+      [labels]="true">
+    </ngx-charts-pie-chart>
+  </div>
+
+  <div class="chart-container">
+    <h3 class="chart-title">Statistiques Globales</h3>
+    <ngx-charts-number-card
+      [view]="view"
+      [scheme]="colorScheme"
+      [results]="data">
+    </ngx-charts-number-card>
+  </div>
+</div>

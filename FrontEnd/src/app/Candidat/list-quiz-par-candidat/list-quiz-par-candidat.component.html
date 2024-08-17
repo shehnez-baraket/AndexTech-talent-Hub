@@ -1,0 +1,24 @@
+<!-- feedback-dialog.component.html -->
+<h2>Quizzes passés par {{ data.candidat.nom }} {{ data.candidat.prenom }}</h2>
+<div class="table-container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Titre</th>
+        <th>Description</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let quiz of data.quizzes">
+        <td>{{ quiz.titre }}</td>
+        <td>{{ quiz.description }}</td>
+        <td class="actions">
+          <button mat-button (click)="voirActivite(quiz.quizId)">Activité</button>
+          <button mat-button (click)="voirReponse(quiz.quizId)">Réponses</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<button mat-button (click)="closeDialog()">Fermer</button>

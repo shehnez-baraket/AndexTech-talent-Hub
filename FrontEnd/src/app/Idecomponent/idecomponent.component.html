@@ -1,0 +1,38 @@
+<div class="container">
+
+  <div class="content">
+    <div class="problem-statement">
+    
+      <h3>Énoncé du programme : {{ questionnaire.enonce}}</h3>
+      <p>
+        
+        <p> {{ questionnaire.enonce}}</p><h5>{{ questionnaire.type}}</h5>
+        <!--<h3>Instructions :</h3>
+        <ol>
+          <li>Le programme doit demander à l'utilisateur de saisir le premier entier.</li>
+          <li>Ensuite, le programme doit demander à l'utilisateur de saisir le deuxième entier.</li>
+          <li>Le programme doit calculer la somme des deux entiers saisis.</li>
+          <li>Enfin, le programme doit afficher la somme des deux entiers.</li>
+        </ol>
+       Champ pour afficher le résultat -->
+      <div class="result">
+        <span>Résultat de l'exécution ...</span>
+      </div>
+    </div>
+    <div class="code-editor code-editor-container" >
+      <ngx-codemirror
+      #codeMirror
+      [(ngModel)]="code"
+
+      [options]="editorOptions"
+      (codemirrorInstance)="onEditorInit($event)"
+    ></ngx-codemirror>
+    
+    </div>
+  </div>
+  
+  <div class="actions">
+    <button class="execute-btn" (click)="onSubmit()">Exécuter</button>
+    <!--<button class="next-btn" (click)="onNext()">Suivant</button>-->
+  </div>
+</div>

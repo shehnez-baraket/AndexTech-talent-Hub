@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AndexTech_Talent_Hub_Web.props" />
+</Project>

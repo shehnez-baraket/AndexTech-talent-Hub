@@ -1,0 +1,45 @@
+<div class="container">
+ 
+     
+     <h1>Liste des QCM</h1>
+     <div class="table-container">
+         <table class="table">
+             <thead>
+                 <tr>
+                     <th>ID</th>
+                     <th>Titre</th>
+                     <th>Niveau</th>
+                     <th>Description</th>
+                     <th>Actions</th>
+                 </tr>
+             </thead>
+             <tbody>
+                <tr *ngFor="let qcm of qcms; let i = index" >
+                    
+                    <td>{{ i + 1 }}</td>
+
+                     <td>{{ qcm.titre }}</td>
+                     <td>{{getNiveauLabel(qcm.niveauId )}} </td>
+                     <td>{{ qcm.description }}</td>
+                     
+                     <td class="actions">
+                         <button class="modifier" (click)="modifierQCM(qcm)">
+                            <i class="fas fa-edit"></i> 
+                         </button>
+                         <button class="supprimer" (click)="deleteQCM(qcm.qcmId)">
+                            <i class="fas fa-trash-alt"></i>
+                         </button>
+                     </td>
+                 </tr>
+             </tbody>
+         </table>
+     </div>
+     
+     <!-- Bouton pour ajouter un QCM -->
+     <div class="add-qcm-button">
+         <a routerLink="/tableauBord/genererQcm" class="btnAjout">Générer un QCM</a>
+         <a routerLink="/tableauBord/ajoutQcm" class="btnAjout ajout-qcm">Ajouter un QCM</a>
+
+     </div>
+ </div>
+ 

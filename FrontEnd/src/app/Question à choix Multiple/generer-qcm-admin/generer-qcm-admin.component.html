@@ -1,0 +1,28 @@
+<div class="container">
+  <h1>Générer un QCM</h1>
+  <form [formGroup]="qcmForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="titre">Titre</label>
+      <input id="titre" formControlName="titre" type="text" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="description">Description</label>
+      <input id="description" formControlName="description" type="text" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="nombreQuestions">Nombre de Questions</label>
+      <input id="nombreQuestions" formControlName="nombreQuestions" type="number" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="niveauId">Niveau</label>
+      <select id="niveauId" formControlName="niveauId" class="form-control">
+        <option *ngFor="let niveau of niveaux" [value]="niveau.value">{{ niveau.label }}</option>
+      </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Générer</button>
+  </form>
+</div>

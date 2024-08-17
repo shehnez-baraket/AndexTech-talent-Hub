@@ -1,0 +1,47 @@
+<div class="container">
+  <h1>Ajouter Question</h1>
+  <form [formGroup]="questionForm" (submit)="onSubmit()">
+    <div class="form-group">
+      <label for="texte">Texte de la question :</label>
+      <input type="text" id="texte" class="form-control" formControlName="texte">
+    </div>
+    <div class="form-group">
+      <label for="niveau">Niveau :</label>
+      <select id="niveau" class="form-control" formControlName="niveau">
+        <option *ngFor="let niveau of niveaux" [value]="niveau.value">{{ niveau.label }}</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="point">Points :</label>
+      <input type="number" id="point" class="form-control" formControlName="point">
+    </div>
+    <div class="form-group">
+      <label for="domaine">Catégorie :</label>
+      <select id="domaine" class="form-control" formControlName="domaine" (change)="addTagFromCategory($event)">
+        <option value="">Sélectionner une catégorie</option>
+        <option *ngFor="let categorie of categories" [value]="categorie">{{ categorie }}</option>
+      </select>
+    </div>
+  
+    <div class="form-group">
+      <label for="tags"></label>
+      <div class="tags-container">
+        <div *ngFor="let tag of selectedTags" class="tag">
+          <span>{{ tag }}</span>
+          <button type="button" class="remove-tag" (click)="removeTag(tag)">X</button>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="options">Options :</label>
+      <div formArrayName="options">
+        <div *ngFor="let option of optionsFormArray.controls; let i = index" [formGroupName]="i" class="option-group">
+          <input type="text" class="form-control" formControlName="text" placeholder="Option {{ i + 1 }}">
+          <input type="checkbox" formControlName="isCorrect"> Correct
+        </div>
+      </div>
+      <button type="button" class="btn btn-secondary" (click)="addOption()">+</button>
+    </div>
+    <button type="submit" class="btn btn-primary">Ajouter</button>
+  </form>
+</div>

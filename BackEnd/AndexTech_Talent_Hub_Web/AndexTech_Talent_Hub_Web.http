@@ -1,0 +1,6 @@
+@AndexTech_Talent_Hub_Web_HostAddress = http://localhost:5159
+
+GET {{AndexTech_Talent_Hub_Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

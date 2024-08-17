@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Sélectionner un/des candidat(s)</h1>
+
+  <form [formGroup]="candidateForm">
+    <input type="text" placeholder="Rechercher par adresse e-mail..." formControlName="searchEmail" class="email-search">
+    <div formArrayName="candidates" class="candidates-list">
+      <div *ngFor="let candidate of filteredCandidates; let i = index">
+        <input type="checkbox" [formControlName]="i" class="candidate-checkbox">{{ candidate.adresseEmail }}
+      </div>
+    </div>
+    <button type="button" (click)="sendInvitations()" class="send-button">Envoyer une invitation</button>
+  </form>
+</div>

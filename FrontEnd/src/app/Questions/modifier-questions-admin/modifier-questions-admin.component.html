@@ -1,0 +1,36 @@
+<div class="container">
+    
+  <h1>Modifier Question</h1>
+<form [formGroup]="questionForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="texte">Texte</label>
+    <input id="texte" formControlName="texte" type="text">
+  </div>
+
+  <div class="form-group">
+    <label for="domaine">Domaine</label>
+    <input id="domaine" formControlName="domaine" type="text">
+  </div>
+
+  <div class="form-group">
+    <label for="niveau">Niveau</label>
+
+    <select id="niveau" formControlName="niveau">
+      <option *ngFor="let niveau of niveaux" [value]="niveau.value">{{ niveau.label }}</option>
+    </select>
+    
+    
+  </div>
+
+  <div formArrayName="options" class="options-container">
+    <div *ngFor="let option of optionsFormArray.controls; let i = index" [formGroupName]="i" class="option-group">
+      <label for="texte-{{i}}">Option {{i + 1}}</label>
+      <input id="texte-{{i}}" formControlName="texte" type="text">
+      <label for="estCorrect-{{i}}">Correcte</label>
+      <input id="estCorrect-{{i}}" type="checkbox" formControlName="estCorrect">
+    </div>
+  </div>
+
+  <button type="submit" class="btnModif">Enregistrer</button>
+</form>
+</div>

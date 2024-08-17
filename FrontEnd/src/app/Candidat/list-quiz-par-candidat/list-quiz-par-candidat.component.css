@@ -1,0 +1,79 @@
+/* feedback-dialog.component.css */
+
+/* Style pour le conteneur du tableau */
+.table-container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: auto; /* Permet le défilement */
+  max-height: 500px;
+  }
+  
+  /* Style pour le tableau */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    align-items: center;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styles pour les boutons d'action */
+  .actions button {
+    padding: 8px 16px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .actions button.mat-button {
+    background-color: #2c6db9;
+    color: white;
+  }
+  
+  /* Changement de couleur au survol */
+  .actions button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Bouton pour fermer le dialogue */
+  button.mat-button {
+    background-color: #2c6db9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.mat-button:hover {
+    background-color: #3f7ec5;
+  }
+  
+  /* Titre du dialogue */
+  h2 {
+    text-align: center;
+    color: #1b2552;
+    margin-bottom: 10px;
+  }
+  

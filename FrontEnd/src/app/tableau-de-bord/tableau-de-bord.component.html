@@ -1,0 +1,28 @@
+<div class="dashboard-container">
+  <div class="sidebar">
+    <div class="company-and-dashboard">
+      <img src="assets/Logo_Andex.png" alt="Logo de l'entreprise" class="company-logo">
+      <h1>Dashboard</h1>
+    </div>
+
+    <ul class="nav-list" [ngClass]="{ 'collapsed': isSidebarCollapsed }">
+      <li><a routerLink="/tableauBord/stat" routerLinkActive="active"><i class="material-icons">dashboard</i><span>Statistiques</span></a></li>
+      <li><a routerLink="/tableauBord/listeAdmin" routerLinkActive="active"><i class="material-icons">people</i><span>Administrateurs</span></a></li>
+      <li><a routerLink="/tableauBord/listeCandidat" routerLinkActive="active"><i class="material-icons">person</i><span>Candidats</span></a></li>
+      <li><a routerLink="/tableauBord/listeQuestionnaire" routerLinkActive="active"><i class="material-icons">assignment</i><span>Questionnaires</span></a></li>
+      <li><a routerLink="/tableauBord/listeQuestion" routerLinkActive="active"><i class="material-icons">help</i><span>Questions</span></a></li>
+      <li><a routerLink="/tableauBord/listeQcm" routerLinkActive="active"><i class="material-icons">list</i><span>Qcms</span></a></li>
+      <li><a routerLink="/tableauBord/listeQuiz" routerLinkActive="active"><i class="material-icons">quiz</i><span>Quiz</span></a></li>
+      <li><a routerLink="/tableauBord/listeFeedback" routerLinkActive="active"><i class="material-icons">feedback</i><span>Feedbacks</span></a></li>
+      <li><a routerLink="/tableauBord/avisCandidat" routerLinkActive="active"><i class="material-icons">rate_review</i><span>Avis candidat</span></a></li>
+
+      <br/>
+
+      <li><a routerLink="/authentification" routerLinkActive="active"><i class="material-icons">logout</i><span>Déconnexion</span></a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

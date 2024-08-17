@@ -1,0 +1,37 @@
+
+.timer {
+  z-index: 1200;
+
+  position: fixed; /* Position absolue par rapport au conteneur parent */
+  top: 40px;
+  right:125px; /* À 50 pixels du haut du conteneur parent */
+  text-align: center; /* Aligner le contenu à gauche */
+  font-size: 12px; /* Taille de la police ajustée */
+  font-weight: bold;
+  color: #fffb00; /* Couleur du texte */
+  width:80px;
+}
+
+
+.timer-container {
+  position: relative;
+  background-color: #0d4bb8e8; /* Fond bleu */
+  padding: 10px; /* Ajout d'un espace intérieur */
+  border-radius: 5px; /* Coins arrondis */
+}
+
+.timer-container.blink {
+  animation: backgroundBlink 1s infinite; /* Animation de clignotement du fond */
+}
+
+@keyframes backgroundBlink {
+  0% {
+    background-color: #0d4bb8e8; /* Couleur de fond normale (bleu) */
+  }
+  50% {
+    background-color: orange; /* Couleur de fond pendant le clignotement */
+  }
+  100% {
+    background-color: #0d4bb8e8; /* Couleur de fond normale (bleu) */
+  }
+}

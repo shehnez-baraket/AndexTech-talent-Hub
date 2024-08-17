@@ -1,0 +1,31 @@
+<div class="container">
+    <h1>Ajouter Questionnaire</h1>
+    <form [formGroup]="questionnaireForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="enonce">Enoncé :</label>
+        <input type="text" id="enonce" class="form-control" formControlName="enonce">
+      </div>
+      <div class="form-group">
+        <label for="reponseAttendue">Réponse Attendue :</label>
+        <input type="text" id="reponseAttendue" class="form-control" formControlName="reponseAttendue">
+      </div>
+      <div class="form-group">
+        <label for="niveau">Niveau :</label>
+        <select id="niveau" class="form-control" formControlName="niveau">
+          <option *ngFor="let niveau of niveaux" [value]="niveau.value">{{ niveau.label }}</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="point">Points :</label>
+        <input type="number" id="point" class="form-control" formControlName="point">
+      </div>
+      <div class="form-group">
+        <label for="type">Type :</label>
+        <select id="type" class="form-control" formControlName="type">
+          <option *ngFor="let type of types" [value]="type.value">{{ type.label }}</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Ajouter</button>
+    </form>
+  </div>
+  

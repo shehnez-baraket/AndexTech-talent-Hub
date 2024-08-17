@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>Modifier Questionnaire</h1>
+    <form [formGroup]="questionnaireForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="enonce">Enoncé :</label>
+        <input type="text" id="enonce" class="form-control" formControlName="enonce">
+      </div>
+      <div class="form-group">
+        <label for="reponseAttendue">Réponse Attendue :</label>
+        <input type="text" id="reponseAttendue" class="form-control" formControlName="reponseAttendue">
+      </div>
+      <div class="form-group">
+        <label for="type">Type :</label>
+        <input type="text" id="type" class="form-control" formControlName="type">
+      </div>
+      <div class="form-group">
+        <label for="niveau">Niveau :</label>
+        <select type ="text" id="niveau" class="form-control" formControlName="niveau">
+          <option *ngFor="let niveau of niveaux" [value]="niveau.value">{{ niveau.label }}</option>
+        </select>
+      </div>
+      <button class="btnModif" type="submit">Modifier</button>
+      <button class="btnModif" type="button" (click)="onAnnule()">Annuler</button>
+    </form>
+  </div>
+  

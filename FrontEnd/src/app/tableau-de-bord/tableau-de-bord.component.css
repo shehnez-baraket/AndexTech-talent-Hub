@@ -1,0 +1,65 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.company-and-dashboard {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Espacement en bas du logo et du titre */
+}
+
+.company-logo {
+  max-width: 50px; /* Réduire la largeur maximale de l'image */
+  margin-right: 10px; /* Espacement à droite de l'image */
+}
+
+h1 {
+  color: #1b2552;
+  margin: 0; /* Supprime les marges par défaut du titre */
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 5px 0; /* Réduire l'espacement entre les éléments de la liste */
+}
+
+.nav-list a {
+  display: flex;
+  align-items: center;
+  color: #2c216e;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-list a:hover,
+.nav-list a.active {
+  background-color: #f2f2f2; /* Couleur de fond pour l'élément survolé ou actif */
+}
+
+.nav-list a i {
+  margin-right: 8px;
+}
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #dddada;
+  overflow-y: auto;
+}
+.nav-list a.active {
+  background-color: #ececec; /* Gris foncé */
+  color: #2c216e; /* Facultatif : changer la couleur du texte pour plus de contraste */
+}

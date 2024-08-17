@@ -1,0 +1,26 @@
+<div class="container">
+  
+  <h1>Ajouter un Administrateur</h1>
+  
+     <form [formGroup]="adminForm" (ngSubmit)="onSubmit()">
+    
+    <div class="form-group">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" class="form-control" formControlName="nom">
+    </div>
+    <div class="form-group">
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" class="form-control" formControlName="prenom">
+    </div>
+    <div class="form-group">
+      <label for="email">Adresse Email :</label>
+      <input type="email" id="email" class="form-control" formControlName="email">
+    </div>
+    <div class="form-group">
+      <label for="PasswordHash">Mot de passe :</label>
+      <input type="password" id="password" class="form-control" formControlName="PasswordHash">
+     
+    </div>
+    <button type="submit" class="btnAjouter">Ajouter</button>
+ </form>
+</div>

@@ -1,0 +1,22 @@
+  <div class="container">
+    <h1>Liste des avis </h1>
+    <div class="table-container">
+        <table class="table">
+            <thead>
+                <tr>
+                  <th>Rating</th>
+                  <th>Commentaires</th> 
+                  <th>Date de soumission</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let avis of avisClients">          
+                    <td>{{ avis.rating }}</td>
+                    <td>{{ avis.comment }}</td>                  
+                    <td>{{ avis.submittedAt |date }}</td>                
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  </div>
+  

@@ -1,0 +1,124 @@
+
+.container {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-container {
+  margin-bottom: 20px; /* Espacement entre le champ de recherche et le titre */
+  position: relative; /* Position relative pour gérer l'icône de loupe absolue */
+}
+
+.search-input {
+  padding: 10px 30px 10px 40px; /* Ajustement du rembourrage pour inclure l'espace de l'icône */
+  width: 200px; /* Largeur du champ de recherche */
+  border: 1px solid #ccc; /* Bordure du champ de recherche */
+  border-radius: 5px; /* Coins arrondis du champ de recherche */
+  outline: none; /* Supprime la mise en évidence du champ de recherche lorsqu'il est sélectionné */
+  font-size: 16px; /* Taille de la police */
+}
+
+.search-icon {
+  font-size: 24px; /* Taille de l'icône de loupe */
+  color: #888; /* Couleur de l'icône de loupe */
+  position: absolute; /* Position absolue pour l'icône de loupe */
+  left: 10px; /* Position à gauche de l'icône de loupe */
+  top: 50%; /* Alignement vertical au centre */
+  transform: translateY(-50%); /* Ajustement pour centrer verticalement */
+}
+
+/* Style supplémentaire pour le champ de recherche lorsqu'il est survolé */
+.search-input:hover {
+  border-color: #999;
+}
+.table-container {
+    margin: 0 auto;
+    overflow-x: auto;
+    /*   position: relative;Centre la table horizontalement */
+}
+
+/* Le reste du CSS reste inchangé */
+
+
+h1 {
+    text-align: center;
+    color: #1b2552;
+    margin-bottom: 10px;
+    margin-top: -20px;
+
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.actions button {
+    padding: 8px 16px; /* Ajoutez un peu de rembourrage */
+    margin-right: 5px; /* Marge à droite pour les espacer */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Style pour le bouton Modifier */
+  .actions button.modifier {
+    background-color: #2c6db9; /* Bleu */
+    color: white;
+  }
+  
+  /* Style pour le bouton Supprimer */
+  .actions button.supprimer {
+    background-color: #ffcc00; /* Jaune */
+    color: black;
+  }
+  
+  /* Changement de couleur au survol */
+  .actions button:hover {
+    opacity: 0.8; /* Réduire l'opacité au survol */
+  }
+  /* Style pour le bouton Ajouter */
+.add-questionnaire-button {
+    text-align: center; /* Centrer le bouton */
+    margin-top: 20px; /* Marge en haut pour l'éloigner du formulaire */
+  }
+  
+  .add-questionnaire-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2c6db9; /* Couleur verte */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transition fluide de la couleur de fond */
+  }
+  
+  .add-questionnaire-button a:hover {
+    background-color: #3f7ec5; /* Couleur verte légèrement plus foncée au survol */
+  }
+  

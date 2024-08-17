@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>Modifier Feedback</h1>
+  <form [formGroup]="feedbackForm" (ngSubmit)="onSubmit()" class="form-container">
+    <div class="form-group">
+      <label for="avis">Avis:</label>
+      <input type="text" id="avis" formControlName="avis" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="nom">Nom:</label>
+      <input type="text" id="nom" formControlName="nom" class="form-control readonly-input" [readonly]="true">
+    </div>
+    <div class="form-group">
+      <label for="prenom">Prénom:</label>
+      <input type="text" id="prenom" formControlName="prenom" class="form-control readonly-input" [readonly]="true">
+    </div>
+    <div class="form-group">
+      <label for="adresseEmail">Adresse Email:</label>
+      <input type="email" id="adresseEmail" formControlName="adresseEmail" class="form-control readonly-input" [readonly]="true">
+    </div>
+    <button type="submit" class="btn">Enregistrer</button>
+  </form>
+</div>

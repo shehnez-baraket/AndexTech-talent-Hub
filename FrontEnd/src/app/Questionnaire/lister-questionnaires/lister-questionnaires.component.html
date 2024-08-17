@@ -1,0 +1,39 @@
+<div class="container">
+  
+  <h1>Liste des Questionnaires</h1>
+  <div class="search-container">
+    <input type="text" [(ngModel)]="searchText" placeholder="Rechercher un questionnaire" class="search-input">
+    <i class="material-icons search-icon">search</i> <!-- Icône de loupe -->
+</div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Enoncé</th>
+        <th>Réponse Attendue</th>
+        <th>Niveau</th>
+        <th>Type</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let questionnaire of filteredQuestions(); let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ questionnaire.enonce }}</td>
+        <td>{{ questionnaire.reponseAttendue }}</td>
+        <td>{{ getNiveauLabel(questionnaire.niveauId) }}</td>
+        <td>{{ questionnaire.type }}</td>
+        <td class="actions">
+          <button class="modifier" (click)="editQuestionnaire(questionnaire)">
+            <i class="fas fa-edit"></i> 
+          </button>
+          <button class="supprimer" (click)="deleteQuestionnaire(questionnaire.questionnaireId)"> 
+            <i class="fas fa-trash-alt"></i></button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="add-questionnaire-button">
+    <a routerLink="/tableauBord/ajoutQuestionnaire" class="btnAjout">Ajouter un questionnaire</a>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<app-timer-component [startTime]="quiz.dureeMinutes * 60"></app-timer-component>
+<div class="container" *ngIf="quiz">
+<br/>
+<br/>
+  <div *ngIf="qcmQuestions.length > 0">
+    <div *ngFor="let qcmQuestion of qcmQuestions">
+      <div *ngFor="let question of qcmQuestion.question">
+        <app-qcm [question]="question"></app-qcm>
+      </div>
+    </div>
+  </div>
+  
+  <div *ngIf="quiz.questionnaires">
+    <div *ngFor="let questionnaire of quiz.questionnaires">
+      <ng-container *ngIf="questionnaire.type === 'sql'">
+        <app-questions-sql [questionnaire]="questionnaire" ></app-questions-sql>
+      </ng-container>
+      <ng-container *ngIf="questionnaire.type !== 'sql'">
+        <app-idecomponent  (codeSubmitted)="handleCodeSubmitted($event)" [quizId]="quizId" [candidateId]="candidateId" [questionnaire]="questionnaire"></app-idecomponent>
+      </ng-container>
+    </div>
+  </div>
+  <button class="submit-btn" (click)="submitQuiz()">Envoyer la réponse</button>
+</div>

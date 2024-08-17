@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="question" *ngIf="question">
+    <p>{{ question.texte }}</p>
+    <ul>
+      <li *ngFor="let option of question.option">
+        <input type="checkbox" [name]="'selectedOption_' + question.questionId" [value]="option.optionId" (change)="toggleOption(option.optionId, $event)">
+        {{ option.texte }}
+      </li>
+    </ul>
+  </div>
+</div>

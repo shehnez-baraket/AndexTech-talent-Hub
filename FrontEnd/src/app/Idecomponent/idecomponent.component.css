@@ -1,0 +1,67 @@
+h1 {
+  text-align: center;
+  color: #1b2552; /* Couleur de texte foncé */
+}
+
+body {
+  background-color: #dddada; /* Fond gris clair */
+}
+
+.container {
+  max-width: 80%; /* Utilise 80% de la largeur de l'écran */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white; /* Fond blanc pour le contenu */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ombre légère */
+}
+
+.content {
+  display: flex;
+}
+
+.problem-statement {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.code-editor {
+  z-index: 1000;
+  flex: 1; 
+  display: flex;
+  overflow: auto; 
+}
+
+.actions {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.submit-btn,
+.delete-btn,
+.execute-btn, 
+.next-btn{
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #2c216e;
+  color: white;
+  border-radius: 5px; /* Coins arrondis pour les boutons */
+}
+
+.result {
+  text-size-adjust: 8px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.877);
+  color: white;
+  padding: 20px;
+  border-radius: 0px;
+  margin-top: 50px;
+}
+.result .p{
+  size: 8px;
+}
+
+
+
